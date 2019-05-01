@@ -18,6 +18,9 @@ The model expects to take in the following tables of information:
 
 The code here sets out to pull this information from our data warehouse tables, manipulate that data so that it is in the format that
 the model expects, run the tables through the model, and export the outputs - specifically the average member risk score per month for 
-the year of interest. 
+the year of interest. This graph should look something like this (absolute risk score value is not included as it is propritary):
+
+![Risk Score by Month Graph](https://github.com/kostdiek/ACARiskAdjustmentScore_BuildUp/blob/master/2018_Graph_deIdentified.JPG)
+
 
 This code also serves to show off some of the skills that I have in SAS, many of which also translate well to SQL. 
